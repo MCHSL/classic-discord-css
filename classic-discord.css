@@ -1,0 +1,106 @@
+:not(.divider-JfaTT5) + .groupStart-23k01U::before {
+    all: unset;
+    content: "";
+    z-index: 9999;
+    min-width: 100%;
+    width: 100%;
+    border-top: 1px solid #404349;
+    display: block;
+    margin-left: -56px;
+    padding-right: 58px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+
+.mentioned-xhSam7 {
+    background: initial;
+}
+
+.mentioned-xhSam7::before {
+    display: none;
+}
+
+.mentioned-xhSam7 .containerCozy-336-Cz {
+    background: #46423c;
+}
+
+.mentioned-xhSam7 .containerCozy-336-Cz::before {
+    content: " ";
+    display: inline-block;
+    background-color: #faa61a !important;
+    color: #faa61a !important;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    margin-left: -5px;
+    width: 4px;
+    margin-right: 0.5px;
+}
+
+.emojiButton-jE9tXC {
+    display: none;
+}
+
+.emojiSeparator-10VgEJ {
+    display: none;
+}
+
+.buttons-cl5qTG {
+    margin-top: 23px;
+    transform: scale(0.85);
+}
+
+.groupStart-23k01U > .buttonContainer-DHceWr > .buttons-cl5qTG {
+    margin-top: 55px;
+    transform: scale(0.85);
+}
+
+.divider-JfaTT5 + .groupStart-23k01U > .buttonContainer-DHceWr > .buttons-cl5qTG {
+    margin-top: 35px;
+    transform: scale(0.85);
+}
+
+.container-3npvBV {
+    border: none !important;
+    border-radius: 0px !important;
+    background: transparent;
+}
+
+.wrapper-2aW0bm {
+    border: none !important;
+    outline: none !important;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none !important;
+}
+
+.button-1ZiXG9:hover {
+    background-color: initial;
+}
+
+.unreadPill-2HyYtt {
+    display: none;
+}
+
+.isUnread-3Ef-o9 {
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+
+.isUnread-3Ef-o9::After {
+    content: "NEW MESSAGES";
+    background: #36393f;
+    margin: 10px;
+    color: #A84244;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.messagesWrapper-3lZDfY {
+    margin-bottom: 16px;
+}
+
+.theme-dark {
+    --background-message-hover: #36393f;
+    --background-mentioned-hover: #36393f;
+}
