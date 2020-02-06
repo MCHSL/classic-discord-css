@@ -109,6 +109,10 @@ div[class*="cozyMessage"] > div[class*="markup"] {
 	line-height: 1.1rem !important;
 }
 
+div[class*="cozyMessage"] > div[class*="container"] {
+	min-height: 0 !important;
+}
+
 div[class*="cozyMessage"] > div[class*="container"] > div[class*="markup"] {
 	line-height: 1.1rem !important;
 }
