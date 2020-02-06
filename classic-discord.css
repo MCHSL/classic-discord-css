@@ -1,13 +1,10 @@
 :not([class*="divider"]) + div[class*="groupStart"]::before {
     all: unset;
     content: "";
-    z-index: 9999;
-    min-width: 100%;
-    width: 100%;
     border-top: 1px solid #404349;
     display: block;
-    margin-left: -56px;
-    padding-right: 58px;
+    margin-left: 15px;
+	margin-right: 15px;
     margin-bottom: 15px;
     padding-top: 5px;
 }
@@ -106,12 +103,14 @@ div[tabindex="0" aria-controls*="poput_"]:hover {
 }
 
 div[class*="cozyMessage"] > div[class*="markup"] {
-	line-height: 1.15rem !important;
+	line-height: 1.1rem !important;
 }
 
-div[class*="cozyMessage"] {
-	min-height: 1.15rem !important;
+div[class*="cozyMessage"] > div[class*="container"] > div[class*="markup"] {
+	line-height: 1.1rem !important;
 }
+
+/* Opinionated stuff here */
 
 /*button[aria-label="Send a gift"] {
 	display: none;
