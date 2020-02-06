@@ -17,11 +17,12 @@ div[class*="cozyMessage"][class*="mentioned"]::before {
     display: none;
 }
 
-div[class*="cozyMessage"][class*="mentioned"] > div[class*="containerCozy"] {
-    background: #46423c;
+div[class*="cozyMessage"][class*="mentioned"] > div[class*="container"] > div[class*="containerCozy"] {
+    padding: 1px;
+	background: #46423c !important;
 }
 
-div[class*="cozyMessage"][class*="mentioned"] > div[class*="containerCozy"]::before {
+div[class*="cozyMessage"][class*="mentioned"] > div[class*="container"] > div[class*="containerCozy"]::before {
     content: " ";
     display: inline-block;
     background-color: #faa61a !important;
@@ -31,6 +32,8 @@ div[class*="cozyMessage"][class*="mentioned"] > div[class*="containerCozy"]::bef
     margin-left: -5px;
     width: 4px;
     margin-right: 0.5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
 
 div[tabindex="0"][aria-label^="Add Reaction: "] {
