@@ -1,6 +1,6 @@
 Tested on:  
-Stable 53877 (65210f2)  
-Host 0.0.305  
+Stable 55393 (b3019e6)
+Host 0.0.306
 This is guaranteed to work on that version, you can check it by opening Discord settings and looking at the bottom left.
 
 # What's this?
