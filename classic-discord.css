@@ -11,7 +11,7 @@
 	padding-right: -56px;
 }
 
-div[class*="contents"] > img[class*="avatar"] {
+:not([class*="isUnread"]) + div[class*="message"] > div[class*="contents"] > img[class*="avatar"] {
 	margin-top: 15px !important;
 }
 
