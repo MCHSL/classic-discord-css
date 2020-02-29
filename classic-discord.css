@@ -1,12 +1,18 @@
 :not([class*="divider"]) + div[class*="groupStart"]::before {
     all: unset;
+	width: 107%;
     content: "";
     border-top: 1px solid #404349;
     display: block;
-    margin-left: 15px;
-	margin-right: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding-top: 5px;
+	margin-left: -56px;
+	margin-right: -56px;
+	padding-right: -56px;
+}
+
+div[class*="contents"] > img[class*="avatar"] {
+	margin-top: 15px !important;
 }
 
 div[class*="cozyMessage"][class*="mentioned"] {
@@ -17,12 +23,13 @@ div[class*="cozyMessage"][class*="mentioned"]::before {
     display: none;
 }
 
-div[class*="cozyMessage"][class*="mentioned"] > div[class*="container"] > div[class*="containerCozy"] {
+div[class*="cozyMessage"][class*="mentioned"] > div[class*="contents"] > div[class*="messageContent"] {
     padding: 1px;
 	background: #46423c !important;
+	margin-left: 0px !important;
 }
 
-div[class*="cozyMessage"][class*="mentioned"] > div[class*="container"] > div[class*="containerCozy"]::before {
+div[class*="cozyMessage"][class*="mentioned"] > div[class*="contents"] > div[class*="messageContent"]::before {
     content: " ";
     display: inline-block;
     background-color: #faa61a !important;
@@ -34,6 +41,10 @@ div[class*="cozyMessage"][class*="mentioned"] > div[class*="container"] > div[cl
     margin-right: 0.5px;
 	padding-top: 1px;
 	padding-bottom: 1px;
+}
+
+div[class*="cozyMessage"] > div[class*="contents"] > div[class*="messageContent"] {
+    width: calc(100% - 48px);
 }
 
 div[tabindex="0"][aria-label^="Add Reaction: "] {
@@ -105,21 +116,35 @@ div[tabindex="0" aria-controls*="poput_"]:hover {
     --background-mentioned-hover: #36393f;
 }
 
+div[class*="cozyMessage"] {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	line-height: 1rem !important;
+}
+
 div[class*="cozyMessage"] > div[class*="markup"] {
-	line-height: 1.1rem !important;
+	padding: 0 !important;
+	line-height: 1rem !important;
 }
 
 div[class*="cozyMessage"] > div[class*="container"] {
+	line-height: 1rem !important;
 	min-height: 0 !important;
 }
 
 div[class*="cozyMessage"] > div[class*="container"] > div[class*="markup"] {
-	line-height: 1.1rem !important;
+	padding: 0 !important;
+	line-height: 1rem !important;
+}
+
+div[class*="jumpToPresentBar"] {
+	padding-bottom: 0px;
+	border-radius: 8px;
 }
 
 /* Opinionated stuff here */
 
-/*button[aria-label="Send a gift"] {
+button[aria-label="Send a gift"] {
 	display: none;
 }
 
@@ -129,4 +154,4 @@ a[href="/store"] {
 
 [class*="nowPlayingColumn"] {
 	display: none;
-}*/
+}
